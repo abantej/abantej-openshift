@@ -56,3 +56,19 @@ oc login
 
 oc new-project dev --display-name="Test Project" --description="My Test Project"
 ```
+
+## Privileges
+
+```
+oc adm policy add-cluster-role-to-user cluster-admin abantej
+```
+
+## OC commands
+
+```
+kubectl get nodes
+
+oc get nodes
+
+oc version
+```
